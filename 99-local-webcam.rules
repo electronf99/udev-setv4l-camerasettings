@@ -1,0 +1,2 @@
+SUBSYSTEM=="video4linux", SUBSYSTEMS=="usb", ATTRS{idVendor}=="046d", PROGRAM="/bin/sh -c '/usr/bin/python3 /home/dpeters/camera_settings.py 160 > /tmp/t'"
+
